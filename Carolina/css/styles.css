@@ -1,0 +1,260 @@
+body {
+  background-color: #eeee;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h2 span {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h3 span {
+  font-size: 3rem;
+}
+
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #252525;
+  line-height: 2.4rem;
+}
+
+h2 span,
+h3 span {
+  color: #e082a8;
+  font-family: 'Italianno', sans-serif;
+  display: block;
+}
+
+/*Social menu*/
+
+.socials ul {
+  list-style: none;
+}
+
+.socials ul li {
+  position: relative;
+  display: inline-block;
+}
+
+.socials ul li a:before {
+  font-family: 'FontAwesome';
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 .4rem;
+  content: '\f08e';
+  color: #e082a8;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+}
+
+.socials ul li a[href*="facebook.com"]:before {
+  content: '\f230';
+}
+
+/*** Navigation **/
+
+.navigation {
+  background-color: #8ed3cc;
+}
+
+nav.main-nav {
+  background-image: url(../img/border_horizontal.png), url(../img/border_horizontal.png);
+  background-repeat: repeat-x;
+  background-position: 0px top, 0px bottom;
+}
+
+nav.main-nav .nav-item {
+  transition: background-color .3s ease;
+}
+
+nav.main-nav .nav-item:hover {
+  background-color: #39a69b;
+  border-radius: 10px;
+}
+
+nav.main-nav .nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Slider */
+
+.carousel .carousel-caption h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* First section  */
+
+.new-website p {
+  font-size: 1.2rem;
+  color: #979797;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Images */
+
+.image-links img {
+  border: 6px solid white;
+  transition: transform .3s ease;
+}
+
+.image-links img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.image-info {
+  background-color: #fff;
+  margin-top: -50px;
+}
+
+.image-info .btn-success {
+  background-color: #e082a8;
+  border: none;
+  border-radius: 0;
+}
+
+.image-info .btn-success:hover {
+  background-color: #ca5b88;
+}
+
+.business-hours {
+  background-color: #8ed3cc;
+  color: #fff;
+}
+
+.business-hours h3 {
+  color: #fff;
+}
+
+.bg-hours {
+  background-image: url(../img/bg_hours.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+}
+
+.table {
+  border: 2px solid #e082a8;
+}
+
+.table td,
+.table thead th {
+  border: none;
+}
+
+.table tbody tr td {
+  padding: .35rem;
+}
+
+.table-danger,
+.table-hover .table-danger:hover {
+  background-color: #e082a8;
+}
+
+/*Appointement*/
+
+.appointment {
+  background-image: url(../img/bg_appointment.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media(min-width: 992px) {
+  .appointment {
+    background-size: cover;
+  }
+}
+
+.appointment h3 {
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 4rem;
+}
+
+.appointment p {
+  line-height: 2.6rem;
+  color: #fff;
+}
+
+.appointment .btn-primary {
+  background-color: #8ed3cc;
+  border: 1px solid #8ed3cc;
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 1rem 5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.appointment .btn-primary:hover {
+  background-color: #68bebc;
+  border: 1px solid #68bebc;
+}
+
+/*Footer*/
+
+.site-footer {
+  background-color: #8ed3cc;
+  color: #fff;
+}
+
+.site-footer p.copyright {
+  font-family: 'Lato', sans-serif;
+  color: #959595;
+}
+
+.footer-socials ul {
+  list-style: none;
+}
+
+.footer-socials ul li {
+  display: inline-block;
+}
+
+.footer-socials ul li img {
+  margin-left: 20px;
+}
+
+/*internal pages*/
+
+.hero {
+  position: relative;
+}
+
+.hero h2 {
+  position: absolute;
+  background-color: #8ed3cc;
+  color: #fff;
+  bottom: 2rem;
+  right: 0;
+  padding: 1rem 2rem 1rem 6rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.main-content p {
+  line-height: 2rem;
+}
+
+.sidebar.hours {
+  background-color: #8ed3cc;
+  color: #fff;
+}
+
+.sidebar.hours h3 {
+  color: #fff;
+}
